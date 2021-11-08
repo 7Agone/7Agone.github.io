@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <meta name="author" content="" />
+
+        <meta name="copyright" content="" />
+
+        <meta name="description" content="" />
+
+        <meta name="keywords" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Formulaire de contact</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+            </nav>
+        </header>
+
+        <main>
+
+            <section>
+
+                <span>&#9993;</span>
+
+                <form>
+                    <label for="name">NOM Prenom</label>
+                    <div>
+                        <input type="text" id="name" />
+                    </div>
+
+                    <label for="email">Adresse email</label>
+                    <div>
+                        <input type="email" id="username" minlength="8" maxlength="320" placeholder="adresse mail" required="true" />
+                    </div>
+
+                    <label for="phone">Telephone</label>
+                    <div>
+                        <input type="tel" id="phone" minlength="14" pattern="[0-9]{10}" />
+                    </div>
+
+                    <label for="objet">Objet</label>
+                    <div>
+                        <input type="text" id="objet" minlength="8" placeholder="Objet..."/>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <div>
+                        <textarea id="message" rows="5" cols="100" required="true" placeholder="Redigez votre message..."></textarea>
+                    </div>
+
+                    <button type="submit">Envoyez</button>
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+        </footer>
+
+    </body>
+
+</html>
